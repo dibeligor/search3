@@ -1,0 +1,122 @@
+body {  
+    margin: 0;
+    min-height: 100%;
+    display: block;
+    background: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.regular {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.regular input[type="text"] {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    border: 1px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.regular input[type="text"]:focus {
+    outline: none;
+}
+
+
+
+form button {
+    font-size: 1.0rem;
+}
+
+form button .lg {
+    font-weight: 700;
+}
+
+form button .blue
+{
+    color: #537fbe;
+}
+form button .red
+{
+    color: #ea433b;
+}
+form button .yellow
+{
+    color: #f5b82e;
+}
+form button .green
+{
+    color: #2e944b;
+}
+
+.container {
+    width: 70%;
+    padding: 30px;
+}
+
+.advance {
+    position: relative;
+}
+.advance .queries {
+
+}
+
+.advance .queries .query{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.advance .queries .query input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: rgba(0, 0, 0, 0.30);
+}
+
+.advance .queries .query p {
+    font-size: 1.2rem;
+}
+
+.advance button {
+    right: 0;
+    position: absolute;  
+    background-color: rgb(26, 130, 226);
+    border-color: blue;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: 3px;
+}
+
+.advance .queries .query input[type="text"]:hover {
+    border-color: rgba(0, 0, 150, 0.30);
+}
+.advance .queries .query input[type="text"]:focus {
+    outline-color: rgba(0, 0, 250, 0.30);
+}
+
+
+
+
